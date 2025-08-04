@@ -2899,6 +2899,15 @@ label {
   }
 }
 
+@media only screen and (max-width: 1280px) {
+  .container {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .hero-text-overlay {
+    grid-column: 2 / 6;
+  }
+}
+
 .hero-text-overlay {
   display: flex;
   justify-content: center;
