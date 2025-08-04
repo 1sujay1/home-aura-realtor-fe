@@ -2908,12 +2908,6 @@ label {
   }
 }
 
-.hero-text-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 
 @media (max-width: 767px) {
