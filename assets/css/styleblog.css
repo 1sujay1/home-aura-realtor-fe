@@ -1,0 +1,52 @@
+    
+    
+    h1 {
+      color: #0a0a0a;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    h2 {
+         font-size: 20px;
+
+    }
+    h3 {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    ul {
+      margin-top: 5px;
+      padding-left: 20px;
+    }
+    .highlight {
+      background: #e9f5ff;
+      border-left: 4px solid #005bab;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    .cta {
+      background: #005bab;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 30px 0;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+      table, th, td {
+        font-size: 14px;
+      }
+    }
